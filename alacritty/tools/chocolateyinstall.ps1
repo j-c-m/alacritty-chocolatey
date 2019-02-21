@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
+$ErrorActionPreference = 'Stop';
 
 $packageName= $env:ChocolateyPackageName
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
@@ -12,3 +12,7 @@ $packageArgs = @{
 }
 
 Install-ChocolateyZipPackage @packageArgs
+
+Install-ChocolateyShortCut `
+  -ShortCutFilePath "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Alacritty.lnk" `
+  -TargetPath "$toolsDir\alacritty.exe"
