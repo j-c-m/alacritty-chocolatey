@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>alacritty</id>
+    <version>0.2.9</version>
+    <title>alacritty</title>
+    <authors>Joe Wilm</authors>
+    <owners>Jesse Miller</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/jwilm/alacritty</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/j-c-m/alacritty-chocolatey/master/icons/256x256.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Alacritty is focused on simplicity and performance. The performance goal means
+it should be faster than any other terminal emulator available. The simplicity
+goal means that it doesn't have features such as tabs or splits (which can be
+better provided by a window manager or [terminal multiplexer](https://github.com/tmux/tmux)) nor
+niceties like a GUI config editor.
+
+The software is considered to be at an **alpha** level of readiness--there are
+missing features and bugs to be fixed, but it is already used by many as a daily
+driver.</description>
+    <summary>Alacritty is the fastest terminal emulator in existence. Using the GPU for rendering enables optimizations that simply aren't possible in other emulators.</summary>
+    <releaseNotes>https://github.com/jwilm/alacritty/releases/tag/v0.2.9</releaseNotes>
+    <copyright>Copyright 2016 Joe Wilm, The Alacritty Project Contributors</copyright>
+    <tags>alacritty console terminal wsl powershell cmd bash git</tags>
+    <projectSourceUrl>https://github.com/jwilm/alacritty</projectSourceUrl>
+    <packageSourceUrl>https://github.com/j-c-m/alacritty-chocolatey</packageSourceUrl>
+    <docsUrl>https://github.com/jwilm/alacritty/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/jwilm/alacritty/issues</bugTrackerUrl>
+  </metadata>
+</package>
